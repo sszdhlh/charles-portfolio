@@ -29,7 +29,7 @@ const projects: Project[] = [
     title: ".NET MAUI Product Migration",
     description: "Maintained existing .NET Xamarin product and contributed to migration to .NET MAUI.",
     longDescription: "As part of my work at Comactivity, I maintained an existing .NET Xamarin product while contributing to the ongoing migration to .NET MAUI. I completed the new UI design phase and worked closely with my mentor to ensure a smooth transition. The project involved modernizing the UI/UX while maintaining backward compatibility with existing features.",
-    image: "https://same-assets.com/api/v1/unsplash/J5yoGZLdpSI/download",
+    image: "/images/projects/code-1.jpg",
     technologies: [".NET MAUI", "Xamarin", "C#", "UI/UX Design", "Mobile Development"],
     featured: true,
   },

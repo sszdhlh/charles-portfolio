@@ -124,7 +124,7 @@ export function ContactSection() {
                       </Button>
                       <Button variant="ghost" size="icon" asChild>
                         <a
-                          href="https://linkedin.com/in/charles-zhang"
+                          href="https://linkedin.com/in/uqcharles"
                           target="_blank"
                           rel="noopener noreferrer"
                           aria-label="LinkedIn"
