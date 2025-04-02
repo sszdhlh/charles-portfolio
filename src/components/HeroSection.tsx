@@ -25,10 +25,13 @@ export function HeroSection() {
               Yixin (Charles) Zhang
             </span>
           </h1>
-          <p className="mx-auto max-w-[700px] text-muted-foreground md:text-xl">
-            A results-driven Software Developer with expertise in .NET MAUI and AWS.
-            I specialize in creating efficient, reliable applications and excel in cross-functional
-            collaboration to deliver innovative solutions that enhance system performance and reliability.
+          <p className="mx-auto max-w-[700px] text-muted-foreground md:text-xl text-center">
+            Dynamic Full Stack Developer with a proven track record at Comactivity, 
+            specializing in .NET and Node.js. Enhanced UI consistency and 
+            streamlined workflows, significantly reducing setup time by 20%. Adept 
+            in Agile methodologies and committed to cross-functional collaboration, 
+            leveraging skills in cloud technologies and microservices to drive 
+            impactful results.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 mt-8">
             <Button onClick={scrollToProjects} size="lg">
