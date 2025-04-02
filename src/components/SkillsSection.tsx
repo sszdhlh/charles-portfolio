@@ -10,6 +10,7 @@ const skillsData = {
   languages: [
     { name: "C#", level: "Advanced" },
     { name: "JavaScript", level: "Advanced" },
+    { name: "PHP", level: "Intermediate" },
     { name: "Java", level: "Intermediate" },
     { name: "Python", level: "Intermediate" },
     { name: "TypeScript", level: "Intermediate" },
@@ -18,28 +19,34 @@ const skillsData = {
   frameworks: [
     { name: ".NET MAUI", level: "Advanced" },
     { name: "Xamarin", level: "Advanced" },
+    { name: "Node.js", level: "Advanced" },
+    { name: "Express.js", level: "Intermediate" },
+    { name: "Laravel", level: "Intermediate" },
     { name: "AngularJS", level: "Intermediate" },
     { name: "React", level: "Intermediate" },
-    { name: "Node.js", level: "Intermediate" },
-    { name: "Next.js", level: "Beginner" },
+    { name: "Next.js", level: "Intermediate" },
   ],
   tools: [
     { name: "Visual Studio", level: "Advanced" },
     { name: "AWS Lambda", level: "Intermediate" },
     { name: "AWS CloudFormation", level: "Intermediate" },
     { name: "AWS Cognito", level: "Intermediate" },
+    { name: "NPM/Yarn", level: "Advanced" },
+    { name: "Composer", level: "Intermediate" },
     { name: "Jira", level: "Advanced" },
     { name: "Confluence", level: "Advanced" },
     { name: "Git", level: "Advanced" },
     { name: "GitHub Actions", level: "Intermediate" },
     { name: "Docker", level: "Intermediate" },
-    { name: "Jenkins", level: "Beginner" },
+    { name: "Jenkins", level: "Intermediate" },
   ],
   databases: [
     { name: "SQL Server", level: "Intermediate" },
-    { name: "MySQL", level: "Intermediate" },
-    { name: "MongoDB", level: "Beginner" },
+    { name: "MySQL", level: "Advanced" },
+    { name: "MongoDB", level: "Intermediate" },
+    { name: "PostgreSQL", level: "Intermediate" },
     { name: "Database Optimization", level: "Intermediate" },
+    { name: "Redis", level: "Beginner" },
   ],
 };
 
@@ -145,6 +152,39 @@ export function SkillsSection() {
           </div>
 
           <div>
+            <h3 className="text-xl font-semibold mb-4">Web Development</h3>
+            <div className="space-y-4">
+              <div>
+                <div className="flex justify-between mb-1">
+                  <span>Node.js & Express</span>
+                  <span>85%</span>
+                </div>
+                <div className="w-full bg-muted rounded-full h-2">
+                  <div className="bg-primary h-2 rounded-full" style={{ width: "85%" }}></div>
+                </div>
+              </div>
+              <div>
+                <div className="flex justify-between mb-1">
+                  <span>PHP & Laravel</span>
+                  <span>75%</span>
+                </div>
+                <div className="w-full bg-muted rounded-full h-2">
+                  <div className="bg-primary h-2 rounded-full" style={{ width: "75%" }}></div>
+                </div>
+              </div>
+              <div>
+                <div className="flex justify-between mb-1">
+                  <span>JavaScript & Frameworks</span>
+                  <span>80%</span>
+                </div>
+                <div className="w-full bg-muted rounded-full h-2">
+                  <div className="bg-primary h-2 rounded-full" style={{ width: "80%" }}></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <div>
             <h3 className="text-xl font-semibold mb-4">Cloud & DevOps</h3>
             <div className="space-y-4">
               <div>
@@ -172,6 +212,39 @@ export function SkillsSection() {
                 </div>
                 <div className="w-full bg-muted rounded-full h-2">
                   <div className="bg-primary h-2 rounded-full" style={{ width: "70%" }}></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <div>
+            <h3 className="text-xl font-semibold mb-4">Mobile & Frontend</h3>
+            <div className="space-y-4">
+              <div>
+                <div className="flex justify-between mb-1">
+                  <span>Mobile App Development</span>
+                  <span>90%</span>
+                </div>
+                <div className="w-full bg-muted rounded-full h-2">
+                  <div className="bg-primary h-2 rounded-full" style={{ width: "90%" }}></div>
+                </div>
+              </div>
+              <div>
+                <div className="flex justify-between mb-1">
+                  <span>Responsive UI/UX</span>
+                  <span>85%</span>
+                </div>
+                <div className="w-full bg-muted rounded-full h-2">
+                  <div className="bg-primary h-2 rounded-full" style={{ width: "85%" }}></div>
+                </div>
+              </div>
+              <div>
+                <div className="flex justify-between mb-1">
+                  <span>Cross-Platform Solutions</span>
+                  <span>80%</span>
+                </div>
+                <div className="w-full bg-muted rounded-full h-2">
+                  <div className="bg-primary h-2 rounded-full" style={{ width: "80%" }}></div>
                 </div>
               </div>
             </div>
