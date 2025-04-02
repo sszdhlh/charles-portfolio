@@ -1116,6 +1116,10 @@ body {
   background-color: #0000;
 }
 
+.bg-red-500\/10 {
+  background-color: #ef44441a;
+}
+
 .bg-gradient-to-b {
   background-image: linear-gradient(to bottom, var(--tw-gradient-stops));
 }
@@ -1172,6 +1176,10 @@ body {
 
 .p-6 {
   padding: 1.5rem;
+}
+
+.p-3 {
+  padding: .75rem;
 }
 
 .px-2\.5 {
@@ -1349,6 +1357,11 @@ body {
 
 .text-transparent {
   color: #0000;
+}
+
+.text-red-500 {
+  --tw-text-opacity: 1;
+  color: rgb(239 68 68 / var(--tw-text-opacity, 1));
 }
 
 .underline-offset-4 {

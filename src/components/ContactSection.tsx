@@ -21,10 +21,13 @@ const formSchema = z.object({
 });
 
 export function ContactSection() {
+  // State for tracking form submission process
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [isSubmitted, setIsSubmitted] = useState(false);
+  // State for handling submission errors
+  const [submitError, setSubmitError] = useState<string | null>(null);
 
-  // Form definition
+  // Form definition with React Hook Form
   const form = useForm<z.infer<typeof formSchema>>({
     resolver: zodResolver(formSchema),
     defaultValues: {
@@ -35,22 +38,49 @@ export function ContactSection() {
     },
   });
 
-  // Submit handler
+  // Submit handler - sends data to the API
   function onSubmit(values: z.infer<typeof formSchema>) {
+    // Set submitting state to true to show loading indicator
     setIsSubmitting(true);
+    // Clear any previous error messages
+    setSubmitError(null);
 
-    // Simulate form submission
-    setTimeout(() => {
-      console.log(values);
-      setIsSubmitting(false);
-      setIsSubmitted(true);
-      form.reset();
+    // Send request to the contact API endpoint
+    fetch('https://contact-api-7c3w.onrender.com/api/contact', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json'
+      },
+      body: JSON.stringify(values)
+    })
+      .then(response => response.json())
+      .then(data => {
+        // Log success response
+        console.log('Success:', data);
+        // Update UI states
+        setIsSubmitting(false);
+        setIsSubmitted(true);
+        // Reset form fields
+        form.reset();
 
-      // Reset submission status after 5 seconds
-      setTimeout(() => {
-        setIsSubmitted(false);
-      }, 5000);
-    }, 1500);
+        // Reset submission status after 5 seconds
+        setTimeout(() => {
+          setIsSubmitted(false);
+        }, 5000);
+      })
+      .catch(error => {
+        // Log error for debugging
+        console.error('Error:', error);
+        // Update UI states
+        setIsSubmitting(false);
+        // Set error message
+        setSubmitError("Failed to send message. Please try again later.");
+        
+        // Clear error message after 5 seconds
+        setTimeout(() => {
+          setSubmitError(null);
+        }, 5000);
+      });
   }
 
   return (
@@ -69,7 +99,7 @@ export function ContactSection() {
         </div>
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 mt-8">
-          {/* Contact Information */}
+          {/* Contact Information Card */}
           <Card className="border border-border bg-background/60 backdrop-blur">
             <CardContent className="p-6">
               <h3 className="text-xl font-semibold mb-4">Contact Information</h3>
@@ -147,11 +177,12 @@ export function ContactSection() {
             </CardContent>
           </Card>
 
-          {/* Contact Form */}
+          {/* Contact Form Card */}
           <Card className="border border-border bg-background/60 backdrop-blur">
             <CardContent className="p-6">
               <h3 className="text-xl font-semibold mb-4">Send a Message</h3>
 
+              {/* Success message shown after successful form submission */}
               {isSubmitted ? (
                 <div className="bg-green-500/10 text-green-500 p-4 rounded-lg flex flex-col items-center justify-center text-center h-[300px]">
                   <h4 className="font-bold text-lg mb-2">Message Sent!</h4>
@@ -160,6 +191,7 @@ export function ContactSection() {
               ) : (
                 <Form {...form}>
                   <form onSubmit={form.handleSubmit(onSubmit)} className="space-y-4">
+                    {/* Name and Email fields (two columns on tablet and above) */}
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                       <FormField
                         control={form.control}
@@ -188,6 +220,7 @@ export function ContactSection() {
                         )}
                       />
                     </div>
+                    {/* Subject field */}
                     <FormField
                       control={form.control}
                       name="subject"
@@ -201,6 +234,7 @@ export function ContactSection() {
                         </FormItem>
                       )}
                     />
+                    {/* Message field */}
                     <FormField
                       control={form.control}
                       name="message"
@@ -218,9 +252,17 @@ export function ContactSection() {
                         </FormItem>
                       )}
                     />
+                    {/* Submit button - disabled during submission */}
                     <Button type="submit" className="w-full" disabled={isSubmitting}>
                       {isSubmitting ? "Sending..." : "Send Message"}
                     </Button>
+                    
+                    {/* Error message display */}
+                    {submitError && (
+                      <div className="mt-4 bg-red-500/10 text-red-500 p-3 rounded-lg text-center">
+                        {submitError}
+                      </div>
+                    )}
                   </form>
                 </Form>
               )}
