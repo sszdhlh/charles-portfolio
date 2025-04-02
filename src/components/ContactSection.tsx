@@ -48,8 +48,10 @@ export function ContactSection() {
     // Send request to the contact API endpoint
     fetch('https://contact-api-7c3w.onrender.com/api/contact', {
       method: 'POST',
+      mode: 'cors',
       headers: {
-        'Content-Type': 'application/json'
+        'Content-Type': 'application/json',
+        'Accept': 'application/json'
       },
       body: JSON.stringify(values)
     })
