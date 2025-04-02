@@ -33,7 +33,7 @@ export function Header() {
         <div className="font-bold text-xl mr-4">
           <Link href="/" className="flex items-center gap-2">
             <span className="hidden sm:inline-block">Charles Zhang</span>
-            <span className="text-primary text-sm font-normal hidden sm:inline-block">Software Developer</span>
+            <span className="text-primary text-sm font-normal hidden sm:inline-block">Full Stack Developer</span>
           </Link>
         </div>
 
