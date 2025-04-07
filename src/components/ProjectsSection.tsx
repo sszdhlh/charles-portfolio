@@ -146,6 +146,16 @@ const projects: Project[] = [
     githubUrl: "https://github.com/sszdhlh/luffy-crm",
     featured: false,
   },
+  {
+    id: "warehouse-management",
+    title: "Warehouse Management System",
+    description: "Developed a cross-platform warehouse management system using .NET MAUI and Xamarin, integrated with Infor M3 ERP.",
+    longDescription: "Led the development of a comprehensive warehouse management system, transitioning from Xamarin to .NET MAUI for enhanced cross-platform capabilities. The system features real-time inventory tracking, barcode scanning integration, and seamless synchronization with Infor M3 ERP. Implemented offline-first architecture for reliable operation in areas with poor connectivity, and optimized warehouse operations resulting in a 30% reduction in picking time. The solution includes advanced features such as batch tracking, expiry date management, and automated replenishment suggestions.",
+    image: "/images/projects/maui-development.jpg",
+    technologies: [".NET MAUI", "Xamarin", "Infor M3 Integration", "Barcode Scanning", "SQLite", "REST APIs"],
+    githubUrl: "https://github.com/sszdhlh/warehouse-management",
+    featured: true,
+  },
 ];
 
 export function ProjectsSection() {

@@ -44,6 +44,16 @@ const techStacks = [
     icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg",
     description: "A React framework offering server-side rendering and static site generation for optimized performance and SEO"
   },
+  { 
+    name: ".NET MAUI", 
+    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dotnetcore/dotnetcore-original.svg",
+    description: "A modern framework for building cross-platform warehouse management systems with native UI and seamless inventory tracking capabilities"
+  },
+  { 
+    name: "Xamarin", 
+    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/xamarin/xamarin-original.svg",
+    description: "A robust platform for developing cross-platform warehouse management applications with real-time inventory control and barcode scanning features"
+  },
 ];
 
 
