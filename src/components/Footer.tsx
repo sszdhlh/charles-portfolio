@@ -14,7 +14,7 @@ export function Footer() {
           <div>
             <h3 className="text-lg font-semibold mb-4">Yixin (Charles) Zhang</h3>
             <p className="text-sm text-muted-foreground">
-              A Junior Developer specializing in .NET MAUI, AWS, and cross-platform application development.
+              Full Stack Developer specializing in React, Node.js, and modern web technologies.
             </p>
           </div>
 

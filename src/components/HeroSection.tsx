@@ -3,6 +3,7 @@
 import { ArrowDown } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import Image from "next/image";
+import { TechStackCarousel } from "./TechStackCarousel";
 
 export function HeroSection() {
   const scrollToProjects = () => {
@@ -33,7 +34,10 @@ export function HeroSection() {
             leveraging skills in cloud technologies and microservices to drive 
             impactful results.
           </p>
-          <div className="flex flex-col sm:flex-row gap-4 mt-8">
+          <div className="w-full max-w-3xl mx-auto mt-8 mb-8">
+            <TechStackCarousel />
+          </div>
+          <div className="flex flex-col sm:flex-row gap-4">
             <Button onClick={scrollToProjects} size="lg">
               View My Work
             </Button>

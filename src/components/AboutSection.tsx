@@ -17,55 +17,68 @@ interface Experience {
 
 const experiences: Experience[] = [
   {
-    title: "Junior Developer - .NET MAUI & AWS",
+    title: "Junior Developer",
     company: "Comactivity",
-    location: "Brisbane",
-    period: "Feb 2024 - Feb 2025",
-    description: "Maintained .NET Xamarin product and migrated to .NET MAUI. Created AWS Lambda functions, performed database optimizations, and developed secure login flows.",
+    location: "Brisbane, QLD",
+    period: "February 2024 - February 2025",
+    description: "Maintained .NET Xamarin product and contributed to .NET MAUI migration. Built Node.js APIs and developed AngularJS portal application for internal workflows.",
     details: [
-      "Maintained .NET Xamarin product and migrated to .NET MAUI",
-      "Created AWS Lambda functions and performed database optimizations",
-      "Developed secure login flows",
-      "Reduced environment setup time by ~20%",
-      "Improved data retrieval speeds by ~15%"
+      "Maintained .NET Xamarin product; contributed to .NET MAUI migration, improving UI consistency",
+      "Built Node.js (Express) APIs for file uploads & user data, streamlining internal workflows",
+      "Developed and maintained a portal application using AngularJS for internal workflows, with a focus on optimizing front-end performance and creating modular components",
+      "Created AWS Lambda functions & optimized databases, enhancing system reliability",
+      "Reduced environment setup time by ~20% with standardized deployment scripts"
     ]
   },
   {
-    title: "Portal Development Volunteer",
+    title: "Portal Developer Volunteer",
     company: "Advancing Communities Australia",
-    location: "Brisbane",
-    period: "Jun 2023 - Nov 2024",
-    description: "Developed microservices architecture for 'Climate Action Nurses Impact Portal' using Node.js for data APIs and PHP for image manipulation.",
+    location: "Brisbane, QLD",
+    period: "June 2023 - November 2024",
+    description: "Developed a microservices-based portal with React + Node.js for data APIs and PHP for image manipulation. Created a 'Canva-like' module for design work.",
     details: [
-      "Developed microservices architecture using Node.js and PHP",
-      "Created a 'Canva-like' module with GD/Imagick libraries",
-      "Improved maintainability through containerization",
-      "Reduced design turnaround times by ~20%"
+      "Developed a microservices-based portal with React + Node.js (data APIs) & PHP (image manipulation)",
+      "Created a 'Canva-like' module (GD/Imagick) for text/shape overlays & exports, cutting design time ~20%",
+      "Implemented responsive design principles using Vue.js, ensuring the platform's accessibility and usability on both desktop and mobile devices",
+      "Integrated RESTful APIs for front-end data interaction, ensuring smooth communication between user interfaces and back-end services",
+      "Improved maintainability & deployment speed by decoupling services; boosted user adoption across groups"
     ]
   },
   {
-    title: "Web Developer Intern - Node.js & PHP",
-    company: "WebTech Solutions",
-    location: "Remote",
-    period: "May 2023 - Dec 2023",
-    description: "Developed web applications using Node.js (Express) and PHP Laravel, implementing REST APIs and database integrations.",
-    details: [
-      "Built web applications with Node.js (Express) and PHP Laravel",
-      "Implemented REST APIs and database integrations",
-      "Streamlined internal workflows for client data processing"
-    ]
-  },
-  {
-    title: "Software Engineering Intern",
+    title: "AI Python Developer (Intern)",
     company: "Sam",
     location: "Sydney",
-    period: "Sep 2023 - Jan 2024",
-    description: "Built AI-powered tools using OpenAI API for predictive analytics and implemented C# backend services.",
+    period: "September 2023 - January 2024",
+    description: "Built AI-powered tools using OpenAI API for predictive analytics. Transitioned into full-stack development with C# services and video conferencing integration.",
     details: [
-      "Built AI tools using OpenAI API for predictive analytics",
-      "Implemented C# backend services",
-      "Integrated with video conferencing platforms",
-      "Improved sales follow-up efficiency by ~15%"
+      "Built AI-powered tools (OpenAI API) for predictive analytics, raising sales follow-up efficiency by 15%",
+      "Transitioned into full-stack (C# services + Zoom/Teams integration); reduced load times by 30% via optimized code"
+    ]
+  },
+  {
+    title: "IT Support Technician (Intern)",
+    company: "T & R Sports",
+    location: "Sydney, NSW",
+    period: "August 2023 - September 2023",
+    description: "Deployed servers and wrote Python scripts for label printing and stock updates across multiple warehouses. Managed databases and automated synchronization processes.",
+    details: [
+      "Deployed servers & wrote Python scripts for label printing, stock updates across multiple warehouses",
+      "Managed databases & automated synchronization to Excel/third-party platforms, cutting manual entry by 25%"
+    ]
+  },
+  {
+    title: "Full Stack Developer Intern",
+    company: "Zhu Zuo Ji Company",
+    location: "TianJin, TIANJIN",
+    period: "October 2020 - January 2023",
+    description: "Analyzed business requirements and developed responsive user interfaces using Java, React, Node.js, Spring Boot, and Vue.js. Enhanced system performance through optimization.",
+    details: [
+      "Analyzed business requirements and modeled data structures using Java, React, Node.js, and Spring Boot, ensuring scalable system design",
+      "Developed responsive user interfaces for various projects using Vue.js, improving front-end development efficiency and maintainability through component-based development",
+      "Integrated Vue Router and Vuex to manage application routing and global state, ensuring consistency in data flow and page navigation",
+      "Configured projects using Vue CLI and Webpack, optimizing the front-end build process and enhancing development efficiency and code quality",
+      "Maintained modular codebases, integrating microservices for key features and services",
+      "Enhanced system performance by ~15% by optimizing RESTful APIs, database queries, and caching strategies"
     ]
   }
 ];
@@ -99,7 +112,7 @@ export function AboutSection() {
                 <h3 className="text-xl font-semibold">Who I Am</h3>
               </div>
               <p className="text-muted-foreground">
-                Dynamic Junior Developer with a proven track record at Comactivity, specializing in .NET and Node.js. Enhanced UI consistency and streamlined workflows, significantly reducing setup time by 20%. Adept in Agile methodologies and committed to cross-functional collaboration, leveraging skills in cloud technologies and microservices to drive impactful results.
+                Dynamic Full-Stack Developer with expertise in AI integration and automation. Specializing in React, Node.js, and AWS cloud solutions. Currently developing a B2B ticket management system with AI-driven features for startups. Experienced in AI agent workflows using MCP for task automation. Published researcher in AI image recognition with a paper on Citrus Yellow Shoot Disease Detection using YOLOV5. Committed to creating intelligent, efficient solutions that enhance productivity and user experience.
               </p>
             </CardContent>
           </Card>
@@ -113,7 +126,7 @@ export function AboutSection() {
                 <h3 className="text-xl font-semibold">Development Journey</h3>
               </div>
               <p className="text-muted-foreground">
-                My development journey encompasses full-stack development, cloud computing, and mobile applications. I've worked with modern technologies like React, Node.js, and PHP for web development, AWS services for cloud solutions, and .NET MAUI for cross-platform mobile applications. I'm passionate about creating scalable solutions that enhance system performance and reliability.
+                My development journey encompasses full-stack development, AI integration, and automation solutions. I've built AI-driven systems including a B2B ticket management platform with intelligent task automation and a social media content publishing platform that integrates Claude for text optimization and Midjourney for image generation. I'm experienced with React, Express.js, Node.js, and AWS cloud services, with a focus on creating RESTful APIs and implementing Kafka + WebSocket for real-time applications. I'm passionate about leveraging AI agents with MCP workflows to create intelligent, efficient solutions.
               </p>
             </CardContent>
           </Card>
@@ -130,6 +143,7 @@ export function AboutSection() {
                 <div>
                   <h4 className="font-semibold">Master of Information Technology in Computer Science</h4>
                   <p className="text-sm text-muted-foreground">The University of Queensland, Brisbane (Jul 2023)</p>
+                  <p className="text-sm text-muted-foreground mt-1">Published research: "Citrus Yellow Shoot Disease Detection based on YOLOV5" in Highlights in Science, Engineering and Technology (2023)</p>
                 </div>
                 <div>
                   <h4 className="font-semibold">Bachelor of Arts (B.A.) in Modern Languages</h4>

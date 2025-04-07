@@ -8,45 +8,55 @@ import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 // Skills data organized by category
 const skillsData = {
   languages: [
-    { name: "C#", level: "Advanced" },
     { name: "JavaScript", level: "Advanced" },
+    { name: "TypeScript", level: "Advanced" },
+    { name: "Python", level: "Intermediate" },
+    { name: "C#", level: "Intermediate" },
     { name: "PHP", level: "Intermediate" },
     { name: "Java", level: "Intermediate" },
-    { name: "Python", level: "Intermediate" },
-    { name: "TypeScript", level: "Intermediate" },
     { name: "HTML5/CSS3", level: "Advanced" },
   ],
   frameworks: [
-    { name: ".NET MAUI", level: "Advanced" },
-    { name: "Xamarin", level: "Advanced" },
+    { name: "React", level: "Advanced" },
+    { name: "Next.js", level: "Advanced" },
     { name: "Node.js", level: "Advanced" },
-    { name: "Express.js", level: "Intermediate" },
-    { name: "Laravel", level: "Intermediate" },
-    { name: "AngularJS", level: "Intermediate" },
-    { name: "React", level: "Intermediate" },
-    { name: "Next.js", level: "Intermediate" },
+    { name: "Express.js", level: "Advanced" },
+    { name: "Vue.js", level: "Intermediate" },
+    { name: "React Native", level: "Intermediate" },
+    { name: "Django", level: "Intermediate" },
+    { name: ".NET MAUI", level: "Intermediate" },
   ],
   tools: [
-    { name: "Visual Studio", level: "Advanced" },
-    { name: "AWS Lambda", level: "Intermediate" },
-    { name: "AWS CloudFormation", level: "Intermediate" },
-    { name: "AWS Cognito", level: "Intermediate" },
-    { name: "NPM/Yarn", level: "Advanced" },
-    { name: "Composer", level: "Intermediate" },
+    { name: "AWS Services", level: "Advanced" },
+    { name: "CI/CD Pipelines", level: "Advanced" },
+    { name: "Kafka", level: "Advanced" },
+    { name: "WebSocket", level: "Advanced" },
+    { name: "AI Agents", level: "Advanced" },
+    { name: "Microsoft Copilot", level: "Advanced" },
     { name: "Jira", level: "Advanced" },
     { name: "Confluence", level: "Advanced" },
-    { name: "Git", level: "Advanced" },
-    { name: "GitHub Actions", level: "Intermediate" },
+    { name: "Git/GitHub", level: "Advanced" },
+    { name: "Draw.io", level: "Advanced" },
     { name: "Docker", level: "Intermediate" },
     { name: "Jenkins", level: "Intermediate" },
   ],
   databases: [
-    { name: "SQL Server", level: "Intermediate" },
     { name: "MySQL", level: "Advanced" },
+    { name: "PostgreSQL", level: "Advanced" },
+    { name: "DynamoDB", level: "Advanced" },
     { name: "MongoDB", level: "Intermediate" },
-    { name: "PostgreSQL", level: "Intermediate" },
-    { name: "Database Optimization", level: "Intermediate" },
-    { name: "Redis", level: "Beginner" },
+    { name: "Database Optimization", level: "Advanced" },
+    { name: "Redis", level: "Intermediate" },
+  ],
+  ai: [
+    { name: "OpenAI API Integration", level: "Advanced" },
+    { name: "Claude API Integration", level: "Advanced" },
+    { name: "DeepSeek API", level: "Advanced" },
+    { name: "AI Workflow Automation", level: "Advanced" },
+    { name: "YOLOV5 Image Recognition", level: "Advanced" },
+    { name: "Midjourney Integration", level: "Intermediate" },
+    { name: "NLP Applications", level: "Intermediate" },
+    { name: "AI Agent Development", level: "Advanced" },
   ],
 };
 
@@ -85,11 +95,12 @@ export function SkillsSection() {
 
         <div className="mt-8">
           <Tabs defaultValue="languages" className="w-full">
-            <TabsList className="grid w-full grid-cols-2 md:grid-cols-4">
+            <TabsList className="grid w-full grid-cols-2 md:grid-cols-5">
               <TabsTrigger value="languages">Languages</TabsTrigger>
               <TabsTrigger value="frameworks">Frameworks</TabsTrigger>
               <TabsTrigger value="tools">Tools & DevOps</TabsTrigger>
               <TabsTrigger value="databases">Databases</TabsTrigger>
+              <TabsTrigger value="ai">AI & ML</TabsTrigger>
             </TabsList>
             {Object.entries(skillsData).map(([category, skills]) => (
               <TabsContent key={category} value={category} className="mt-6">
@@ -119,11 +130,11 @@ export function SkillsSection() {
         {/* Skill meter section - visual representation */}
         <div className="mt-16 grid grid-cols-1 md:grid-cols-2 gap-8">
           <div>
-            <h3 className="text-xl font-semibold mb-4">.NET Development</h3>
+            <h3 className="text-xl font-semibold mb-4">AI & Automation</h3>
             <div className="space-y-4">
               <div>
                 <div className="flex justify-between mb-1">
-                  <span>C# & .NET Core</span>
+                  <span>AI Integration & Agents</span>
                   <span>95%</span>
                 </div>
                 <div className="w-full bg-muted rounded-full h-2">
@@ -132,7 +143,7 @@ export function SkillsSection() {
               </div>
               <div>
                 <div className="flex justify-between mb-1">
-                  <span>.NET MAUI & Xamarin</span>
+                  <span>Workflow Automation</span>
                   <span>90%</span>
                 </div>
                 <div className="w-full bg-muted rounded-full h-2">
@@ -141,11 +152,11 @@ export function SkillsSection() {
               </div>
               <div>
                 <div className="flex justify-between mb-1">
-                  <span>Visual Studio & Tools</span>
-                  <span>85%</span>
+                  <span>AI APIs (OpenAI, Claude, DeepSeek)</span>
+                  <span>90%</span>
                 </div>
                 <div className="w-full bg-muted rounded-full h-2">
-                  <div className="bg-primary h-2 rounded-full" style={{ width: "85%" }}></div>
+                  <div className="bg-primary h-2 rounded-full" style={{ width: "90%" }}></div>
                 </div>
               </div>
             </div>
@@ -154,6 +165,15 @@ export function SkillsSection() {
           <div>
             <h3 className="text-xl font-semibold mb-4">Web Development</h3>
             <div className="space-y-4">
+              <div>
+                <div className="flex justify-between mb-1">
+                  <span>React & Next.js</span>
+                  <span>90%</span>
+                </div>
+                <div className="w-full bg-muted rounded-full h-2">
+                  <div className="bg-primary h-2 rounded-full" style={{ width: "90%" }}></div>
+                </div>
+              </div>
               <div>
                 <div className="flex justify-between mb-1">
                   <span>Node.js & Express</span>
@@ -165,35 +185,44 @@ export function SkillsSection() {
               </div>
               <div>
                 <div className="flex justify-between mb-1">
-                  <span>PHP & Laravel</span>
-                  <span>75%</span>
+                  <span>RESTful API Design</span>
+                  <span>85%</span>
                 </div>
                 <div className="w-full bg-muted rounded-full h-2">
-                  <div className="bg-primary h-2 rounded-full" style={{ width: "75%" }}></div>
-                </div>
-              </div>
-              <div>
-                <div className="flex justify-between mb-1">
-                  <span>JavaScript & Frameworks</span>
-                  <span>80%</span>
-                </div>
-                <div className="w-full bg-muted rounded-full h-2">
-                  <div className="bg-primary h-2 rounded-full" style={{ width: "80%" }}></div>
+                  <div className="bg-primary h-2 rounded-full" style={{ width: "85%" }}></div>
                 </div>
               </div>
             </div>
           </div>
           
           <div>
-            <h3 className="text-xl font-semibold mb-4">Cloud & DevOps</h3>
+            <h3 className="text-xl font-semibold mb-4">Cloud & Real-time Systems</h3>
             <div className="space-y-4">
               <div>
                 <div className="flex justify-between mb-1">
-                  <span>AWS Services</span>
-                  <span>80%</span>
+                  <span>AWS Cloud Services</span>
+                  <span>90%</span>
                 </div>
                 <div className="w-full bg-muted rounded-full h-2">
-                  <div className="bg-primary h-2 rounded-full" style={{ width: "80%" }}></div>
+                  <div className="bg-primary h-2 rounded-full" style={{ width: "90%" }}></div>
+                </div>
+              </div>
+              <div>
+                <div className="flex justify-between mb-1">
+                  <span>Kafka & WebSocket</span>
+                  <span>85%</span>
+                </div>
+                <div className="w-full bg-muted rounded-full h-2">
+                  <div className="bg-primary h-2 rounded-full" style={{ width: "85%" }}></div>
+                </div>
+              </div>
+              <div>
+                <div className="flex justify-between mb-1">
+                  <span>Database Systems (SQL & NoSQL)</span>
+                  <span>85%</span>
+                </div>
+                <div className="w-full bg-muted rounded-full h-2">
+                  <div className="bg-primary h-2 rounded-full" style={{ width: "85%" }}></div>
                 </div>
               </div>
               <div>
