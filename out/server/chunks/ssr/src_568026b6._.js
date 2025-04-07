@@ -2047,7 +2047,7 @@ const skillsData = {
         },
         {
             name: "Python",
-            level: "Intermediate"
+            level: "Advanced"
         },
         {
             name: "C#",
@@ -2076,6 +2076,10 @@ const skillsData = {
             level: "Advanced"
         },
         {
+            name: "Vue.js",
+            level: "Advanced"
+        },
+        {
             name: "Node.js",
             level: "Advanced"
         },
@@ -2084,15 +2088,15 @@ const skillsData = {
             level: "Advanced"
         },
         {
-            name: "Vue.js",
+            name: "Laravel",
             level: "Intermediate"
         },
         {
-            name: "React Native",
+            name: "Symfony",
             level: "Intermediate"
         },
         {
-            name: "Django",
+            name: "AngularJS",
             level: "Intermediate"
         },
         {
@@ -2102,27 +2106,27 @@ const skillsData = {
     ],
     tools: [
         {
-            name: "AWS Services",
+            name: "AWS Lambda",
             level: "Advanced"
         },
         {
-            name: "CI/CD Pipelines",
+            name: "CloudFormation",
             level: "Advanced"
         },
         {
-            name: "Kafka",
+            name: "Docker",
             level: "Advanced"
         },
         {
-            name: "WebSocket",
+            name: "Jenkins",
             level: "Advanced"
         },
         {
-            name: "AI Agents",
+            name: "GitHub Actions",
             level: "Advanced"
         },
         {
-            name: "Microsoft Copilot",
+            name: "Microservices",
             level: "Advanced"
         },
         {
@@ -2134,23 +2138,19 @@ const skillsData = {
             level: "Advanced"
         },
         {
-            name: "Git/GitHub",
+            name: "Visual Studio",
             level: "Advanced"
         },
         {
-            name: "Draw.io",
+            name: "Agile/Scrum",
             level: "Advanced"
-        },
-        {
-            name: "Docker",
-            level: "Intermediate"
-        },
-        {
-            name: "Jenkins",
-            level: "Intermediate"
         }
     ],
     databases: [
+        {
+            name: "SQL Server",
+            level: "Advanced"
+        },
         {
             name: "MySQL",
             level: "Advanced"
@@ -2160,12 +2160,8 @@ const skillsData = {
             level: "Advanced"
         },
         {
-            name: "DynamoDB",
-            level: "Advanced"
-        },
-        {
             name: "MongoDB",
-            level: "Intermediate"
+            level: "Advanced"
         },
         {
             name: "Database Optimization",
@@ -2194,19 +2190,15 @@ const skillsData = {
             level: "Advanced"
         },
         {
-            name: "YOLOV5 Image Recognition",
+            name: "AI Agent Development",
             level: "Advanced"
         },
         {
-            name: "Midjourney Integration",
-            level: "Intermediate"
+            name: "Cross-Functional Collaboration",
+            level: "Advanced"
         },
         {
-            name: "NLP Applications",
-            level: "Intermediate"
-        },
-        {
-            name: "AI Agent Development",
+            name: "Technical Documentation",
             level: "Advanced"
         }
     ]
@@ -2242,7 +2234,7 @@ function SkillsSection() {
                                     children: "Skills & Expertise"
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/SkillsSection.tsx",
-                                    lineNumber: 86,
+                                    lineNumber: 84,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -2250,26 +2242,26 @@ function SkillsSection() {
                                     children: "Technologies and tools I work with on a daily basis."
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/SkillsSection.tsx",
-                                    lineNumber: 89,
+                                    lineNumber: 87,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/components/SkillsSection.tsx",
-                            lineNumber: 85,
+                            lineNumber: 83,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$separator$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Separator"], {
                             className: "my-4"
                         }, void 0, false, {
                             fileName: "[project]/src/components/SkillsSection.tsx",
-                            lineNumber: 93,
+                            lineNumber: 91,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/src/components/SkillsSection.tsx",
-                    lineNumber: 84,
+                    lineNumber: 82,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2286,7 +2278,7 @@ function SkillsSection() {
                                         children: "Languages"
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/SkillsSection.tsx",
-                                        lineNumber: 99,
+                                        lineNumber: 97,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$tabs$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["TabsTrigger"], {
@@ -2294,7 +2286,7 @@ function SkillsSection() {
                                         children: "Frameworks"
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/SkillsSection.tsx",
-                                        lineNumber: 100,
+                                        lineNumber: 98,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$tabs$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["TabsTrigger"], {
@@ -2302,7 +2294,7 @@ function SkillsSection() {
                                         children: "Tools & DevOps"
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/SkillsSection.tsx",
-                                        lineNumber: 101,
+                                        lineNumber: 99,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$tabs$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["TabsTrigger"], {
@@ -2310,7 +2302,7 @@ function SkillsSection() {
                                         children: "Databases"
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/SkillsSection.tsx",
-                                        lineNumber: 102,
+                                        lineNumber: 100,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$tabs$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["TabsTrigger"], {
@@ -2318,13 +2310,13 @@ function SkillsSection() {
                                         children: "AI & ML"
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/SkillsSection.tsx",
-                                        lineNumber: 103,
+                                        lineNumber: 101,
                                         columnNumber: 15
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/components/SkillsSection.tsx",
-                                lineNumber: 98,
+                                lineNumber: 96,
                                 columnNumber: 13
                             }, this),
                             Object.entries(skillsData).map(([category, skills])=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$tabs$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["TabsContent"], {
@@ -2349,44 +2341,44 @@ function SkillsSection() {
                                                                 ]
                                                             }, void 0, true, {
                                                                 fileName: "[project]/src/components/SkillsSection.tsx",
-                                                                lineNumber: 117,
+                                                                lineNumber: 115,
                                                                 columnNumber: 27
                                                             }, this)
                                                         ]
                                                     }, skill.name, true, {
                                                         fileName: "[project]/src/components/SkillsSection.tsx",
-                                                        lineNumber: 111,
+                                                        lineNumber: 109,
                                                         columnNumber: 25
                                                     }, this))
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/SkillsSection.tsx",
-                                                lineNumber: 109,
+                                                lineNumber: 107,
                                                 columnNumber: 21
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/SkillsSection.tsx",
-                                            lineNumber: 108,
+                                            lineNumber: 106,
                                             columnNumber: 19
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/SkillsSection.tsx",
-                                        lineNumber: 107,
+                                        lineNumber: 105,
                                         columnNumber: 17
                                     }, this)
                                 }, category, false, {
                                     fileName: "[project]/src/components/SkillsSection.tsx",
-                                    lineNumber: 106,
+                                    lineNumber: 104,
                                     columnNumber: 15
                                 }, this))
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/components/SkillsSection.tsx",
-                        lineNumber: 97,
+                        lineNumber: 95,
                         columnNumber: 11
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/src/components/SkillsSection.tsx",
-                    lineNumber: 96,
+                    lineNumber: 94,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2399,7 +2391,7 @@ function SkillsSection() {
                                     children: "AI & Automation"
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/SkillsSection.tsx",
-                                    lineNumber: 133,
+                                    lineNumber: 131,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2414,20 +2406,20 @@ function SkillsSection() {
                                                             children: "AI Integration & Agents"
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/components/SkillsSection.tsx",
-                                                            lineNumber: 137,
+                                                            lineNumber: 135,
                                                             columnNumber: 19
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                             children: "95%"
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/components/SkillsSection.tsx",
-                                                            lineNumber: 138,
+                                                            lineNumber: 136,
                                                             columnNumber: 19
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/src/components/SkillsSection.tsx",
-                                                    lineNumber: 136,
+                                                    lineNumber: 134,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2439,18 +2431,18 @@ function SkillsSection() {
                                                         }
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/components/SkillsSection.tsx",
-                                                        lineNumber: 141,
+                                                        lineNumber: 139,
                                                         columnNumber: 19
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/components/SkillsSection.tsx",
-                                                    lineNumber: 140,
+                                                    lineNumber: 138,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/src/components/SkillsSection.tsx",
-                                            lineNumber: 135,
+                                            lineNumber: 133,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2462,20 +2454,20 @@ function SkillsSection() {
                                                             children: "Workflow Automation"
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/components/SkillsSection.tsx",
-                                                            lineNumber: 146,
+                                                            lineNumber: 144,
                                                             columnNumber: 19
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                             children: "90%"
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/components/SkillsSection.tsx",
-                                                            lineNumber: 147,
+                                                            lineNumber: 145,
                                                             columnNumber: 19
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/src/components/SkillsSection.tsx",
-                                                    lineNumber: 145,
+                                                    lineNumber: 143,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2487,18 +2479,18 @@ function SkillsSection() {
                                                         }
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/components/SkillsSection.tsx",
-                                                        lineNumber: 150,
+                                                        lineNumber: 148,
                                                         columnNumber: 19
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/components/SkillsSection.tsx",
-                                                    lineNumber: 149,
+                                                    lineNumber: 147,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/src/components/SkillsSection.tsx",
-                                            lineNumber: 144,
+                                            lineNumber: 142,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2510,20 +2502,20 @@ function SkillsSection() {
                                                             children: "AI APIs (OpenAI, Claude, DeepSeek)"
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/components/SkillsSection.tsx",
-                                                            lineNumber: 155,
+                                                            lineNumber: 153,
                                                             columnNumber: 19
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                             children: "90%"
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/components/SkillsSection.tsx",
-                                                            lineNumber: 156,
+                                                            lineNumber: 154,
                                                             columnNumber: 19
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/src/components/SkillsSection.tsx",
-                                                    lineNumber: 154,
+                                                    lineNumber: 152,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2535,30 +2527,30 @@ function SkillsSection() {
                                                         }
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/components/SkillsSection.tsx",
-                                                        lineNumber: 159,
+                                                        lineNumber: 157,
                                                         columnNumber: 19
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/components/SkillsSection.tsx",
-                                                    lineNumber: 158,
+                                                    lineNumber: 156,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/src/components/SkillsSection.tsx",
-                                            lineNumber: 153,
+                                            lineNumber: 151,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/components/SkillsSection.tsx",
-                                    lineNumber: 134,
+                                    lineNumber: 132,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/components/SkillsSection.tsx",
-                            lineNumber: 132,
+                            lineNumber: 130,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2568,7 +2560,7 @@ function SkillsSection() {
                                     children: "Web Development"
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/SkillsSection.tsx",
-                                    lineNumber: 166,
+                                    lineNumber: 164,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2583,20 +2575,20 @@ function SkillsSection() {
                                                             children: "React & Next.js"
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/components/SkillsSection.tsx",
-                                                            lineNumber: 170,
+                                                            lineNumber: 168,
                                                             columnNumber: 19
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                             children: "90%"
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/components/SkillsSection.tsx",
-                                                            lineNumber: 171,
+                                                            lineNumber: 169,
                                                             columnNumber: 19
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/src/components/SkillsSection.tsx",
-                                                    lineNumber: 169,
+                                                    lineNumber: 167,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2608,18 +2600,66 @@ function SkillsSection() {
                                                         }
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/components/SkillsSection.tsx",
-                                                        lineNumber: 174,
+                                                        lineNumber: 172,
                                                         columnNumber: 19
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/components/SkillsSection.tsx",
-                                                    lineNumber: 173,
+                                                    lineNumber: 171,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/src/components/SkillsSection.tsx",
-                                            lineNumber: 168,
+                                            lineNumber: 166,
+                                            columnNumber: 15
+                                        }, this),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                            children: [
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                    className: "flex justify-between mb-1",
+                                                    children: [
+                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                                            children: "Vue.js"
+                                                        }, void 0, false, {
+                                                            fileName: "[project]/src/components/SkillsSection.tsx",
+                                                            lineNumber: 177,
+                                                            columnNumber: 19
+                                                        }, this),
+                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                                            children: "85%"
+                                                        }, void 0, false, {
+                                                            fileName: "[project]/src/components/SkillsSection.tsx",
+                                                            lineNumber: 178,
+                                                            columnNumber: 19
+                                                        }, this)
+                                                    ]
+                                                }, void 0, true, {
+                                                    fileName: "[project]/src/components/SkillsSection.tsx",
+                                                    lineNumber: 176,
+                                                    columnNumber: 17
+                                                }, this),
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                    className: "w-full bg-muted rounded-full h-2",
+                                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                        className: "bg-primary h-2 rounded-full",
+                                                        style: {
+                                                            width: "85%"
+                                                        }
+                                                    }, void 0, false, {
+                                                        fileName: "[project]/src/components/SkillsSection.tsx",
+                                                        lineNumber: 181,
+                                                        columnNumber: 19
+                                                    }, this)
+                                                }, void 0, false, {
+                                                    fileName: "[project]/src/components/SkillsSection.tsx",
+                                                    lineNumber: 180,
+                                                    columnNumber: 17
+                                                }, this)
+                                            ]
+                                        }, void 0, true, {
+                                            fileName: "[project]/src/components/SkillsSection.tsx",
+                                            lineNumber: 175,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2631,20 +2671,20 @@ function SkillsSection() {
                                                             children: "Node.js & Express"
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/components/SkillsSection.tsx",
-                                                            lineNumber: 179,
+                                                            lineNumber: 186,
                                                             columnNumber: 19
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                             children: "85%"
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/components/SkillsSection.tsx",
-                                                            lineNumber: 180,
+                                                            lineNumber: 187,
                                                             columnNumber: 19
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/src/components/SkillsSection.tsx",
-                                                    lineNumber: 178,
+                                                    lineNumber: 185,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2656,18 +2696,18 @@ function SkillsSection() {
                                                         }
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/components/SkillsSection.tsx",
-                                                        lineNumber: 183,
+                                                        lineNumber: 190,
                                                         columnNumber: 19
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/components/SkillsSection.tsx",
-                                                    lineNumber: 182,
+                                                    lineNumber: 189,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/src/components/SkillsSection.tsx",
-                                            lineNumber: 177,
+                                            lineNumber: 184,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2679,20 +2719,20 @@ function SkillsSection() {
                                                             children: "RESTful API Design"
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/components/SkillsSection.tsx",
-                                                            lineNumber: 188,
+                                                            lineNumber: 195,
                                                             columnNumber: 19
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                             children: "85%"
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/components/SkillsSection.tsx",
-                                                            lineNumber: 189,
+                                                            lineNumber: 196,
                                                             columnNumber: 19
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/src/components/SkillsSection.tsx",
-                                                    lineNumber: 187,
+                                                    lineNumber: 194,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2704,30 +2744,30 @@ function SkillsSection() {
                                                         }
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/components/SkillsSection.tsx",
-                                                        lineNumber: 192,
+                                                        lineNumber: 199,
                                                         columnNumber: 19
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/components/SkillsSection.tsx",
-                                                    lineNumber: 191,
+                                                    lineNumber: 198,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/src/components/SkillsSection.tsx",
-                                            lineNumber: 186,
+                                            lineNumber: 193,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/components/SkillsSection.tsx",
-                                    lineNumber: 167,
+                                    lineNumber: 165,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/components/SkillsSection.tsx",
-                            lineNumber: 165,
+                            lineNumber: 163,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2737,7 +2777,7 @@ function SkillsSection() {
                                     children: "Cloud & Real-time Systems"
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/SkillsSection.tsx",
-                                    lineNumber: 199,
+                                    lineNumber: 206,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2752,20 +2792,20 @@ function SkillsSection() {
                                                             children: "AWS Cloud Services"
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/components/SkillsSection.tsx",
-                                                            lineNumber: 203,
+                                                            lineNumber: 210,
                                                             columnNumber: 19
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                             children: "90%"
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/components/SkillsSection.tsx",
-                                                            lineNumber: 204,
+                                                            lineNumber: 211,
                                                             columnNumber: 19
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/src/components/SkillsSection.tsx",
-                                                    lineNumber: 202,
+                                                    lineNumber: 209,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2777,18 +2817,18 @@ function SkillsSection() {
                                                         }
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/components/SkillsSection.tsx",
-                                                        lineNumber: 207,
+                                                        lineNumber: 214,
                                                         columnNumber: 19
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/components/SkillsSection.tsx",
-                                                    lineNumber: 206,
+                                                    lineNumber: 213,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/src/components/SkillsSection.tsx",
-                                            lineNumber: 201,
+                                            lineNumber: 208,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2800,20 +2840,20 @@ function SkillsSection() {
                                                             children: "Kafka & WebSocket"
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/components/SkillsSection.tsx",
-                                                            lineNumber: 212,
+                                                            lineNumber: 219,
                                                             columnNumber: 19
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                             children: "85%"
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/components/SkillsSection.tsx",
-                                                            lineNumber: 213,
+                                                            lineNumber: 220,
                                                             columnNumber: 19
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/src/components/SkillsSection.tsx",
-                                                    lineNumber: 211,
+                                                    lineNumber: 218,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2825,18 +2865,18 @@ function SkillsSection() {
                                                         }
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/components/SkillsSection.tsx",
-                                                        lineNumber: 216,
+                                                        lineNumber: 223,
                                                         columnNumber: 19
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/components/SkillsSection.tsx",
-                                                    lineNumber: 215,
+                                                    lineNumber: 222,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/src/components/SkillsSection.tsx",
-                                            lineNumber: 210,
+                                            lineNumber: 217,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2848,20 +2888,20 @@ function SkillsSection() {
                                                             children: "Database Systems (SQL & NoSQL)"
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/components/SkillsSection.tsx",
-                                                            lineNumber: 221,
+                                                            lineNumber: 228,
                                                             columnNumber: 19
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                             children: "85%"
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/components/SkillsSection.tsx",
-                                                            lineNumber: 222,
+                                                            lineNumber: 229,
                                                             columnNumber: 19
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/src/components/SkillsSection.tsx",
-                                                    lineNumber: 220,
+                                                    lineNumber: 227,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2873,18 +2913,18 @@ function SkillsSection() {
                                                         }
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/components/SkillsSection.tsx",
-                                                        lineNumber: 225,
+                                                        lineNumber: 232,
                                                         columnNumber: 19
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/components/SkillsSection.tsx",
-                                                    lineNumber: 224,
+                                                    lineNumber: 231,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/src/components/SkillsSection.tsx",
-                                            lineNumber: 219,
+                                            lineNumber: 226,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2896,20 +2936,20 @@ function SkillsSection() {
                                                             children: "CI/CD & GitHub Actions"
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/components/SkillsSection.tsx",
-                                                            lineNumber: 230,
+                                                            lineNumber: 237,
                                                             columnNumber: 19
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                             children: "75%"
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/components/SkillsSection.tsx",
-                                                            lineNumber: 231,
+                                                            lineNumber: 238,
                                                             columnNumber: 19
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/src/components/SkillsSection.tsx",
-                                                    lineNumber: 229,
+                                                    lineNumber: 236,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2921,18 +2961,18 @@ function SkillsSection() {
                                                         }
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/components/SkillsSection.tsx",
-                                                        lineNumber: 234,
+                                                        lineNumber: 241,
                                                         columnNumber: 19
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/components/SkillsSection.tsx",
-                                                    lineNumber: 233,
+                                                    lineNumber: 240,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/src/components/SkillsSection.tsx",
-                                            lineNumber: 228,
+                                            lineNumber: 235,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2944,20 +2984,20 @@ function SkillsSection() {
                                                             children: "Database Optimization"
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/components/SkillsSection.tsx",
-                                                            lineNumber: 239,
+                                                            lineNumber: 246,
                                                             columnNumber: 19
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                             children: "70%"
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/components/SkillsSection.tsx",
-                                                            lineNumber: 240,
+                                                            lineNumber: 247,
                                                             columnNumber: 19
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/src/components/SkillsSection.tsx",
-                                                    lineNumber: 238,
+                                                    lineNumber: 245,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2969,30 +3009,30 @@ function SkillsSection() {
                                                         }
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/components/SkillsSection.tsx",
-                                                        lineNumber: 243,
+                                                        lineNumber: 250,
                                                         columnNumber: 19
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/components/SkillsSection.tsx",
-                                                    lineNumber: 242,
+                                                    lineNumber: 249,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/src/components/SkillsSection.tsx",
-                                            lineNumber: 237,
+                                            lineNumber: 244,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/components/SkillsSection.tsx",
-                                    lineNumber: 200,
+                                    lineNumber: 207,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/components/SkillsSection.tsx",
-                            lineNumber: 198,
+                            lineNumber: 205,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -3002,7 +3042,7 @@ function SkillsSection() {
                                     children: "Mobile & Frontend"
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/SkillsSection.tsx",
-                                    lineNumber: 250,
+                                    lineNumber: 257,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -3017,20 +3057,20 @@ function SkillsSection() {
                                                             children: "Mobile App Development"
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/components/SkillsSection.tsx",
-                                                            lineNumber: 254,
+                                                            lineNumber: 261,
                                                             columnNumber: 19
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                             children: "90%"
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/components/SkillsSection.tsx",
-                                                            lineNumber: 255,
+                                                            lineNumber: 262,
                                                             columnNumber: 19
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/src/components/SkillsSection.tsx",
-                                                    lineNumber: 253,
+                                                    lineNumber: 260,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -3042,18 +3082,18 @@ function SkillsSection() {
                                                         }
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/components/SkillsSection.tsx",
-                                                        lineNumber: 258,
+                                                        lineNumber: 265,
                                                         columnNumber: 19
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/components/SkillsSection.tsx",
-                                                    lineNumber: 257,
+                                                    lineNumber: 264,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/src/components/SkillsSection.tsx",
-                                            lineNumber: 252,
+                                            lineNumber: 259,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -3065,20 +3105,20 @@ function SkillsSection() {
                                                             children: "Responsive UI/UX"
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/components/SkillsSection.tsx",
-                                                            lineNumber: 263,
+                                                            lineNumber: 270,
                                                             columnNumber: 19
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                             children: "85%"
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/components/SkillsSection.tsx",
-                                                            lineNumber: 264,
+                                                            lineNumber: 271,
                                                             columnNumber: 19
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/src/components/SkillsSection.tsx",
-                                                    lineNumber: 262,
+                                                    lineNumber: 269,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -3090,18 +3130,18 @@ function SkillsSection() {
                                                         }
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/components/SkillsSection.tsx",
-                                                        lineNumber: 267,
+                                                        lineNumber: 274,
                                                         columnNumber: 19
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/components/SkillsSection.tsx",
-                                                    lineNumber: 266,
+                                                    lineNumber: 273,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/src/components/SkillsSection.tsx",
-                                            lineNumber: 261,
+                                            lineNumber: 268,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -3113,20 +3153,20 @@ function SkillsSection() {
                                                             children: "Cross-Platform Solutions"
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/components/SkillsSection.tsx",
-                                                            lineNumber: 272,
+                                                            lineNumber: 279,
                                                             columnNumber: 19
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                             children: "80%"
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/components/SkillsSection.tsx",
-                                                            lineNumber: 273,
+                                                            lineNumber: 280,
                                                             columnNumber: 19
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/src/components/SkillsSection.tsx",
-                                                    lineNumber: 271,
+                                                    lineNumber: 278,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -3138,47 +3178,47 @@ function SkillsSection() {
                                                         }
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/components/SkillsSection.tsx",
-                                                        lineNumber: 276,
+                                                        lineNumber: 283,
                                                         columnNumber: 19
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/components/SkillsSection.tsx",
-                                                    lineNumber: 275,
+                                                    lineNumber: 282,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/src/components/SkillsSection.tsx",
-                                            lineNumber: 270,
+                                            lineNumber: 277,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/components/SkillsSection.tsx",
-                                    lineNumber: 251,
+                                    lineNumber: 258,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/components/SkillsSection.tsx",
-                            lineNumber: 249,
+                            lineNumber: 256,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/src/components/SkillsSection.tsx",
-                    lineNumber: 131,
+                    lineNumber: 129,
                     columnNumber: 9
                 }, this)
             ]
         }, void 0, true, {
             fileName: "[project]/src/components/SkillsSection.tsx",
-            lineNumber: 83,
+            lineNumber: 81,
             columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "[project]/src/components/SkillsSection.tsx",
-        lineNumber: 82,
+        lineNumber: 80,
         columnNumber: 5
     }, this);
 }

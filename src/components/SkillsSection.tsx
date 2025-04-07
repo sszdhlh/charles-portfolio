@@ -10,7 +10,7 @@ const skillsData = {
   languages: [
     { name: "JavaScript", level: "Advanced" },
     { name: "TypeScript", level: "Advanced" },
-    { name: "Python", level: "Intermediate" },
+    { name: "Python", level: "Advanced" },
     { name: "C#", level: "Intermediate" },
     { name: "PHP", level: "Intermediate" },
     { name: "Java", level: "Intermediate" },
@@ -19,32 +19,31 @@ const skillsData = {
   frameworks: [
     { name: "React", level: "Advanced" },
     { name: "Next.js", level: "Advanced" },
+    { name: "Vue.js", level: "Advanced" },
     { name: "Node.js", level: "Advanced" },
     { name: "Express.js", level: "Advanced" },
-    { name: "Vue.js", level: "Intermediate" },
-    { name: "React Native", level: "Intermediate" },
-    { name: "Django", level: "Intermediate" },
+    { name: "Laravel", level: "Intermediate" },
+    { name: "Symfony", level: "Intermediate" },
+    { name: "AngularJS", level: "Intermediate" },
     { name: ".NET MAUI", level: "Intermediate" },
   ],
   tools: [
-    { name: "AWS Services", level: "Advanced" },
-    { name: "CI/CD Pipelines", level: "Advanced" },
-    { name: "Kafka", level: "Advanced" },
-    { name: "WebSocket", level: "Advanced" },
-    { name: "AI Agents", level: "Advanced" },
-    { name: "Microsoft Copilot", level: "Advanced" },
+    { name: "AWS Lambda", level: "Advanced" },
+    { name: "CloudFormation", level: "Advanced" },
+    { name: "Docker", level: "Advanced" },
+    { name: "Jenkins", level: "Advanced" },
+    { name: "GitHub Actions", level: "Advanced" },
+    { name: "Microservices", level: "Advanced" },
     { name: "Jira", level: "Advanced" },
     { name: "Confluence", level: "Advanced" },
-    { name: "Git/GitHub", level: "Advanced" },
-    { name: "Draw.io", level: "Advanced" },
-    { name: "Docker", level: "Intermediate" },
-    { name: "Jenkins", level: "Intermediate" },
+    { name: "Visual Studio", level: "Advanced" },
+    { name: "Agile/Scrum", level: "Advanced" },
   ],
   databases: [
+    { name: "SQL Server", level: "Advanced" },
     { name: "MySQL", level: "Advanced" },
     { name: "PostgreSQL", level: "Advanced" },
-    { name: "DynamoDB", level: "Advanced" },
-    { name: "MongoDB", level: "Intermediate" },
+    { name: "MongoDB", level: "Advanced" },
     { name: "Database Optimization", level: "Advanced" },
     { name: "Redis", level: "Intermediate" },
   ],
@@ -53,10 +52,9 @@ const skillsData = {
     { name: "Claude API Integration", level: "Advanced" },
     { name: "DeepSeek API", level: "Advanced" },
     { name: "AI Workflow Automation", level: "Advanced" },
-    { name: "YOLOV5 Image Recognition", level: "Advanced" },
-    { name: "Midjourney Integration", level: "Intermediate" },
-    { name: "NLP Applications", level: "Intermediate" },
     { name: "AI Agent Development", level: "Advanced" },
+    { name: "Cross-Functional Collaboration", level: "Advanced" },
+    { name: "Technical Documentation", level: "Advanced" },
   ],
 };
 
@@ -172,6 +170,15 @@ export function SkillsSection() {
                 </div>
                 <div className="w-full bg-muted rounded-full h-2">
                   <div className="bg-primary h-2 rounded-full" style={{ width: "90%" }}></div>
+                </div>
+              </div>
+              <div>
+                <div className="flex justify-between mb-1">
+                  <span>Vue.js</span>
+                  <span>85%</span>
+                </div>
+                <div className="w-full bg-muted rounded-full h-2">
+                  <div className="bg-primary h-2 rounded-full" style={{ width: "85%" }}></div>
                 </div>
               </div>
               <div>
